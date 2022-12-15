@@ -48,7 +48,7 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-The drone will be entirely 3D printed, here is the [![model]].
+The drone will be entirely 3D printed, here is the [model].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
