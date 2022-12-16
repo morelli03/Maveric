@@ -48,32 +48,26 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-The drone will be entirely 3D printed, here is the [model].
+Maveric is a drone, entirely 3D printed (here is the [model]), and it is controlled with arduino. You can modify
+the code or the model to make it suitable to your needs.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+The drone is divided in 6 different part, that you can print separately, and then assemble together.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Features
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+- **Stable flight**: The drone is able to maintain its position stable using a flight control system based on the measurement of acceleration and angular velocity.
+- **Obstacle avoidance**: The drone is able to avoid obstacles in the front and under him, using a series of integrated laser sensors. (Up to 3 meters of range)
+- **Automatic landing**: The drone is able to perform an automatic landing by detecting the ground using a distance sensor and gradually decreasing the altitude until it touches down safely.
+
+### Sperimental features
+
+- **Return to home**: The drone is able to return to its starting point by using the GPS coordinates stored at takeoff and flying back to that location.
+- **Automatic flight mode**: The drone can be programmed to perform automatic flights following a predetermined path using an integrated GPS.
 
 ### Prerequisites
 
@@ -149,29 +143,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Distributed under the GPL-3.O License. See  for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
