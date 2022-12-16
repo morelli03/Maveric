@@ -53,12 +53,10 @@ the code or the model to make it suitable to your needs.
 
 The drone is divided in 6 different part, that you can print separately, and then assemble together.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
-### Features
+## Features
 
 - **Stable flight**: The drone is able to maintain its position stable using a flight control system based on the measurement of acceleration and angular velocity.
 - **Obstacle avoidance**: The drone is able to avoid obstacles in the front and under him, using a series of integrated laser sensors. (Up to 3 meters of range)
@@ -69,58 +67,40 @@ The drone is divided in 6 different part, that you can print separately, and the
 - **Return to home**: The drone is able to return to its starting point by using the GPS coordinates stored at takeoff and flying back to that location.
 - **Automatic flight mode**: The drone can be programmed to perform automatic flights following a predetermined path using an integrated GPS.
 
-### Prerequisites
+## Wiring
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+"When wiring are done, place it here"
 
-### Installation
+## Coding
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+To upload the program to the Arduino board that will be used as a controller, follow these steps:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Connect the Arduino board to your computer using a USB cable.
+
+2. Open the Arduino IDE.
+
+3. Select the correct port for your Arduino board from the "Tools" menu.
+
+4. Open the program you want to upload to the Arduino board by going to "File" > "Open" in the Arduino IDE and selecting the file.
+
+5. Click the "Upload" button in the Arduino IDE to upload the program to the Arduino board.
+
+6. Wait for the program to finish uploading. Once it is finished, the program will start running on the Arduino board.
+
+To upload the program to the main Arduino board , just change connection, and repeat the steps above.
 
 
+## Assembly
 
-<!-- USAGE EXAMPLES -->
-## Usage
+To assemble the drone, you will need six parts: the four arms that will hold the motors and propellers, the main structure or body of the drone where the Arduino and ESCs will be placed and all the connections will be made, and the cover that will be screwed on top of the central body using screws that pass through both the central body and the arms to secure them (download 3D [models]).
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To begin, place the Arduino and all the necessary connections on the main structure of the drone. There should be connections from the Arduino to the ESCs, from the batteries to a voltage sensor that will go to the Arduino, from the batteries to the ESCs, and from the ESCs to the motors passing under the arms.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Next you will need to insert the battery into the designated slot under the main structure of the drone. Make sure the battery is securely fastened and once the battery is in place, you will need to connect the cables to the ESCs in the main structure.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Next, attach the four arms to the main structure, making sure they are evenly spaced and securely fastened. Then, attach the motors and propellers to the arms.
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Finally, place the cover on top of the central body and secure it with the screws, making sure it is properly aligned with the arms and the main structure. Once all the parts are in place and the connections are secure, your 3D printed drone should be ready for takeoff!
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -130,20 +110,10 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL-3.O License. See  for more information.
+Distributed under the GPL-3.O License. See the [license] for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +121,9 @@ Distributed under the GPL-3.O License. See  for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[license]: https://github.com/morelli03/Maveric/blob/master/LICENSE
 [model]: https://github.com/morelli03/Maveric/blob/main/model/drone.obj
+[models]: https://github.com/morelli03/Maveric/tree/main/model/parts
 [contributors-shield]: https://img.shields.io/github/contributors/morelli03/Maveric.svg?style=for-the-badge
 [contributors-url]: https://github.com/morelli03/Maveric/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/morelli03/Maveric.svg?style=for-the-badge
