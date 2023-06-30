@@ -67,10 +67,6 @@ The drone is divided in 6 different part, that you can print separately, and the
 - **Return to home**: The drone is able to return to its starting point by using the GPS coordinates stored at takeoff and flying back to that location.
 - **Automatic flight mode**: The drone can be programmed to perform automatic flights following a predetermined path using an integrated GPS.
 
-## Wiring
-
-"When wiring are done, place it here"
-
 ## Coding
 
 To upload the program to the Arduino board that will be used as a controller, follow these steps:
